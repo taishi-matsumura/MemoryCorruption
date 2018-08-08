@@ -44,7 +44,7 @@ void SetScene(SCENE scene) {
 
 void InitBoard() {
 	printf("Board status:\n");
-	for (int row = 0; row < HEIGHT; row++) {
+	for (int row = 0; row <= HEIGHT; row++) {
 		for (int col = 0; col < WIDTH; col++) {
 			int value = 2;
 			g_Status.Board[row][col] = value;
